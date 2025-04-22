@@ -1,7 +1,7 @@
 from googleapiclient.discovery import build
 
 # Replace with your API key
-API_KEY = "AIzaSyDE1xHah0I0QdAzl6HTxFPC-chT86MRbyA"
+API_KEY = "XXXXXXXXXXXXXXXX"
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 def get_comments(video_id):
@@ -19,6 +19,6 @@ def get_comments(video_id):
     return comments
 
 #fetch comments for a specific video
-video_id = "ux9nPrs8zmk"
+video_id = "THE VIDEO ID YOU WANT TO ANALYZE"
 comments = get_comments(video_id)
 print(comments)
