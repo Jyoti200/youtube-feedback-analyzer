@@ -1,7 +1,7 @@
 google-api-python-client
 pandas
 streamlit
-matplotlib
+matplotlib>=3.0.0
 schedule
 sqlite3
 textblob
