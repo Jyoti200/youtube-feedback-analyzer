@@ -1,0 +1,7 @@
+google-api-python-client
+pandas
+streamlit
+matplotlib
+schedule
+sqlite3
+textblob
